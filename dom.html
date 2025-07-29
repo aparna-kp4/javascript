@@ -5,17 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <style>
-        .box{
-            width: 100px;
-            height: 100px;
-            background-color: blueviolet;
-        }
-        .highlight{
-            background-color: bisque;
-        }
 
-    </style> -->
 </head>
 
 <body>
@@ -29,47 +19,84 @@
     </ol> -->
     <!-- <h2 id="oo">hello</h2> -->
     <!-- <p id="hh">ham</p> -->
-     <!-- <a href="">link</a> -->
+    <!-- <a href="">link</a> -->
 
-<div class="box">helloo</div>
+    <!-- <div class="box">helloo</div> -->
 
+    <!-- <div>over me!!!!</div> -->
 
+    <form>
+        <input type="text">
+    </form>
 
-
-
-
-
+    <!-- <button id="Button">click me</button> -->
+    <!-- <button>Click Me</button> -->
 
     <script>
         // const heading = document.getElementById("aparna");
         // // console.log(heading);
+
+
         // const paragraph = document.querySelector("p")
         // console.log(paragraph);
+
+
         // <!-- const listitems = document.querySelectorAll("li"); -->
         // listitems.forEach(item => console.log(item));
         // // console.log(listitems);
+
+
         // const heading = document.getElementById("oo");
         // heading.innerText = "Welcome to javascript!";
+
 
         // const container = document.getElementById("hh");
         // container.innerHTML = "<strong>Bold Text</strong>";
 
+
+
         // const link = document.querySelector("a");
         // link.setAttribute("href","https://www.linkedin.com/in/aparna-kp-a43b11366?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app");
-    
-                // const box = document.querySelector(".box");
-                // // box.classList.add("highlight");
-                //  box.classList.remove("highlight");
 
-                // const newDiv = document.createElement("div");
-                // newDiv.innerText="This is a new div";
-                // document.body.appendChild(newDiv);
- 
 
-                const newDiv = document.createElement("div");
-                const oldDiv=document.getElementById("old");
-                oldDiv.remove();
 
+        // const box = document.querySelector(".box");
+        // // box.classList.add("highlight");
+        //  box.classList.remove("highlight");
+
+// creating elements
+
+        // const newDiv = document.createElement("div");
+        // newDiv.innerText="This is a new div";
+        // document.body.appendChild(newDiv);
+
+// removing elements
+        // const newDiv = document.createElement("div");
+        // const oldDiv=document.getElementById("old");
+        // oldDiv.remove();
+
+// adding event handling
+
+        // const button = document.getElementById("Button");
+        // button.addEventListener("click", () => alert("Button clicked!"));
+
+//  click event to check the button click
+
+        //  document.querySelector("button").addEventListener("click", () => {
+        //     console.log("Button clicked!");
+        // });
+
+//  mouse over  
+
+        // document.querySelector("div").addEventListener("mouseover",()=>{
+        //     console.log("Mouse over!");
+        // });
+// input event
+
+
+            document.querySelector("input").addEventListener("input",event=>{
+                console.log(event.target.value);
+            });
 
 
     </script>

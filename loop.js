@@ -41,12 +41,12 @@
 // console.log(employees[0].name);
 
 
-let employees = [
-    { name: "Aparna", age: 20},
-    { name: "Thuthu", age: 4},
-    { name: "arunima", age: 18},
-    { name: "laila", age: 24}
-];
+// let employees = [
+//     { name: "Aparna", age: 20},
+//     { name: "Thuthu", age: 4},
+//     { name: "arunima", age: 18},
+//     { name: "laila", age: 24}
+// ];
 
 // // Find the youngest employee
 // let youngest = employees[0]; // assume the first employee is youngest initially
